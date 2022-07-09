@@ -1,0 +1,13 @@
+nav {
+  background-color: var(--nav_dark);
+  position: relative;
+  overflow: hidden;
+}
+
+nav h1 {
+  padding-left: 0.5em;
+  color: var(--text_colour);
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+  text-decoration-color: var(--accent_colour);
+}

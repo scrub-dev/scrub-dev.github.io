@@ -1,10 +1,15 @@
 :root{
   --text_colour: white;
-  --main_colour: gray;
-  --secondary_colour: black;  
-  --tertiary_colour: lime;
+  --main_colour: #37474f;
+  --secondary_colour: #455a64;
+  --accent_colour: #E40066;
+  --accent-colour_alt: #a8004c;
+  --nav_dark: #212529;
+  --text_font : 'Courier New', Courier, monospace;
 }
-
+* {
+  font-family: var(--text_font);
+}
 body {
   margin: 0;
   padding: 0;
