@@ -4,3 +4,8 @@
   --secondary_colour: black;  
   --tertiary_colour: lime;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
