@@ -7,7 +7,7 @@ const rng = (range: [number, number] | [number]) => {
 
   let rng = Math.random()
 
-  if(range.length != 1){
+  if(range.length !== 1){
     let diff = range[1] - range[0]
     rng = Math.floor(rng * diff)
     rng = rng + range[0]
