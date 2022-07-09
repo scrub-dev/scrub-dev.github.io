@@ -6,9 +6,11 @@ const Navbar = () => {
   let info = personal()
   return (
     <nav>
-      <div>
-        <h1>{info.name_long}</h1>
-      </div>
+        <h1 id='name'>{info.name_long}</h1>
+        <ul>
+          <li><a>test1</a></li>
+          <li><a>test2</a></li>
+        </ul>
     </nav>
   )
 }

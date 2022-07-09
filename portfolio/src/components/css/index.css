@@ -5,9 +5,12 @@
   --accent_colour: #E40066;
   --accent-colour_alt: #a8004c;
   --nav_dark: #212529;
-  --text_font : 'Courier New', Courier, monospace;
+  --text_font_styled : 'Courier New', Courier, monospace;
+  --text_font: Arial, Helvetica, sans-serif;
 }
 * {
+  padding: 0;
+  margin: 0;
   font-family: var(--text_font);
 }
 body {

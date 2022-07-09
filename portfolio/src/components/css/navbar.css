@@ -1,13 +1,37 @@
 nav {
   background-color: var(--nav_dark);
-  position: relative;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100vw;
 }
 
-nav h1 {
+nav #name {
+  position: relative;
   padding-left: 0.5em;
+  padding-top: 0.5em;
+  float: left;
   color: var(--text_colour);
+  font-family: var(--text_font_styled);
   text-decoration: underline;
   text-underline-offset: 0.1em;
   text-decoration-color: var(--accent_colour);
+}
+nav ul {
+  padding: 1em;
+  float: right;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 1em;
+}
+
+nav ul li:hover {
+  background-color: var(--accent_colour);
+  transition: 0.3s;
+}
+
+nav ul li a {
+  color: var(--text_colour);
 }
