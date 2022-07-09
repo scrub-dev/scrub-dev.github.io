@@ -1,6 +1,5 @@
 import './css/navbar.css'
 import personal from '../info/personal'
-import rng from '../utils/rng'
 
 const Navbar = () => {
   let info = personal()

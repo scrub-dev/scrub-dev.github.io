@@ -1,3 +1,7 @@
-const footer = () => {}
+import personal from "../info/personal"
 
-export default footer
+const Footer = () => {
+  return (<span>&#169; {personal().name_long} {new Date().getFullYear()}</span>)
+}
+
+export default Footer
