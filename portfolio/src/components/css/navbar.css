@@ -17,6 +17,10 @@ nav #name {
   text-underline-offset: 0.1em;
   text-decoration-color: var(--accent_colour);
 }
+nav #name:hover {
+  text-decoration-color: var(--accent_colour_alt);
+  transition: 0.3s;
+}
 nav ul {
   padding: 1em;
   float: right;
