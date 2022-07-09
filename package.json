@@ -1,0 +1,22 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio-website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrub-dev/react-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scrub-dev/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/scrub-dev/react-portfolio#readme",
+  "devDependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}
