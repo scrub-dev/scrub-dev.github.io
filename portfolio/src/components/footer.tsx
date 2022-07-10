@@ -1,4 +1,5 @@
 import personal from "../info/personal"
+import './css/footer.css'
 
 const Footer = () => {
   return (
