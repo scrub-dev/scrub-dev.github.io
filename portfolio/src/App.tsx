@@ -13,9 +13,7 @@ function App() {
         <Section bg="yellow"/>
         <Section bg="green"/>
       </main>
-      <footer>
-        <Footer/>
-      </footer>
+      <Footer/>
     </div>
   );
 }
