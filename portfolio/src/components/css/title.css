@@ -1,0 +1,31 @@
+@keyframes typing {
+  from {width: 0}
+  to {width: 100}
+}
+
+@keyframes caret {
+  from, to{ border-color: transparent }
+  50% { border-color: var(--accent); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-to-accent {
+  to {color: var(--accent)}
+}
+
+#title {
+  display: inline-flex;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation:
+    typing 3s steps(43, end),
+    caret .75s step-end infinite;
+
+  text-align: center;
+  font-size: 3em;  
+}

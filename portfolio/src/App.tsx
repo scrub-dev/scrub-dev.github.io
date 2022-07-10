@@ -6,6 +6,7 @@ import Section from './components/section';
 import InformationSection from './components/sections/information';
 import ProjectsSection from './components/sections/projects';
 import TitleSection from './components/sections/title';
+
 function App() {
   return (
     <div className="App">
