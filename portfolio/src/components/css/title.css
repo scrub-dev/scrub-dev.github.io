@@ -17,7 +17,7 @@
   to {color: var(--accent)}
 }
 
-#title {
+.title {
   display: inline-flex;
   overflow: hidden;
   white-space: nowrap;

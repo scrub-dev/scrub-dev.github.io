@@ -2,7 +2,7 @@ import './css/section.css'
 const Section = (props : any) => {
   let content : any = props.content
   return (
-    <section style={{backgroundColor: props.bg}}>
+    <section id={props.id} style={{backgroundColor: props.bg}}>
       {content}
     </section>
   )
