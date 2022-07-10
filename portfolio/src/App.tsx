@@ -14,9 +14,9 @@ function App() {
         <Navbar/>
       </header>
       <main>
-        <Section bg="#37474f" content={TitleSection()}/>
+        <Section bg="#546e7a" content={TitleSection()}/>
         <Section bg="#455a64" content={InformationSection()}/>
-        <Section bg="#546e7a" content={ProjectsSection()}/>
+        <Section bg="#37474f" content={ProjectsSection()}/>
       </main>
       <Footer/>
     </div>
