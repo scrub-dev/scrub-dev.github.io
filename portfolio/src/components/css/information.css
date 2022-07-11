@@ -1,0 +1,21 @@
+.container {
+  width: 70vw;
+}
+
+.container > h2 {
+  padding-bottom: 1em;
+}
+.container > div > p {
+  color: var(--text_colour);
+  font-size: 1.5rem;
+  margin: 0.5em
+}
+#section-title {
+  font-size: 2rem;
+  color: white;
+  border-bottom: 0.1em solid var(--accent_colour);
+}
+
+#about-me > p{
+  text-align: left;
+}

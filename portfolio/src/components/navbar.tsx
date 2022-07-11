@@ -6,9 +6,9 @@ const Navbar = () => {
     <nav id='nav-bar'>
         <h1 id='name'>{info.name_long}</h1>
         <ul>
-          <li><a href="#title">test1</a></li>
-          <li><a href="#info">test2</a></li>
-          <li><a href="#projects">test3</a></li>
+          <li><a href="#title">Home</a></li>
+          <li><a href="#info">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
 
     </nav>
