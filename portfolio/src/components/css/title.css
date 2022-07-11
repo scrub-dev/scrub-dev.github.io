@@ -1,31 +1,54 @@
+.typewriter-text{
+  color: white;
+  font-size: 3rem;
+
+  display: inline-flex;
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+
+  border-right: .15em solid var(--accent_colour);
+  animation: 
+    typing 2s steps(35, end),
+    blink-caret .75s step-end infinite;
+}
+.name-anim{
+  animation: white-to-accent 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+.title-anim{
+  padding-left: 0.2em;
+  border-bottom: 0.1em solid transparent;
+  padding-bottom: 0.1em;
+  margin-right: 0.2em;
+  animation: accent-border-reveal 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
 @keyframes typing {
-  from {width: 0}
-  to {width: 100}
+  from { width: 0 }
+  to { width: 100% }
 }
-
-@keyframes caret {
+@keyframes blink-caret {
   from, to{ border-color: transparent }
-  50% { border-color: var(--accent); }
+  50% { border-color: var(--accent_colour); }
 }
-
 @keyframes fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-
-@keyframes fade-to-accent {
-  to {color: var(--accent)}
+@keyframes white-to-accent {
+  from {color:white;}
+  to {color: var(--accent_colour)}
+}
+@keyframes accent-border-reveal {
+  from {border-color: transparent}
+  to{border-color: var(--accent_colour)}
 }
 
-.title {
-  display: inline-flex;
-  overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto;
-  animation:
-    typing 3s steps(43, end),
-    caret .75s step-end infinite;
-
-  text-align: center;
-  font-size: 3em;  
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -3,7 +3,7 @@ footer {
   padding-bottom: 0.5em;
   background-color: var(--nav_dark);
 }
-span {
+footer > span {
   padding-left: 0.5em;
   color: var(--text_colour);
   font-family: var(--text_font_styled);
