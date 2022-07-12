@@ -1,9 +1,11 @@
+import projects from '../../info/projects'
 import '../css/projects.css'
+import ProjectGrid from '../projectgrid'
 
 const ProjectsSection = () => {
   return (
     <div>
-      <h1>test3</h1>
+      <ProjectGrid projects={projects()}/>
     </div>
   )
 }

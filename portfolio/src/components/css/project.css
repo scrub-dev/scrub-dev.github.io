@@ -1,0 +1,11 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  background-color: white;
+  max-width: 20%;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+.card > h1 {
+  position: relative;
+}

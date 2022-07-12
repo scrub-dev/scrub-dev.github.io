@@ -1,4 +1,4 @@
-interface project_information {
+export interface project_information {
   name: string
   description: string
   github_link?: string
