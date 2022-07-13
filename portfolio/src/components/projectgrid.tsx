@@ -4,7 +4,7 @@ import './css/projectgrid.css'
 const ProjectGrid = (props: any) => {
   let projects: project_information[] = props.projects
   return (
-    <div>
+    <div id='grid'>
       {projects.map(project => (<Project project={project}/>))}
     </div>
   )

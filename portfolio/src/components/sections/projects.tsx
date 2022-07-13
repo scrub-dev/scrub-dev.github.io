@@ -4,7 +4,10 @@ import ProjectGrid from '../projectgrid'
 
 const ProjectsSection = () => {
   return (
-    <div>
+    <div id='grid-container'>
+      <div id='projects-title'>
+        <span>Projects.</span>
+      </div>
       <ProjectGrid projects={projects()}/>
     </div>
   )

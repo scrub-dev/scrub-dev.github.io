@@ -1,0 +1,11 @@
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#grid-container {
+  padding-top: 2rem;
+  width: 90%;
+  height: 90%;
+  align-self: center;
+}

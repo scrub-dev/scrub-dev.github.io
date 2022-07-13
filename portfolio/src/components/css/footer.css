@@ -2,6 +2,9 @@ footer {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   background-color: var(--nav_dark);
+  position:fixed;
+  bottom:0;
+  width: 100%;
 }
 footer > span {
   padding-left: 0.5em;
