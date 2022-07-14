@@ -28,9 +28,16 @@ const InformationSection = () => {
         </p>
         <p>
           I enjoy and set out to create projects that improve society or allow more people to access technology, please don't
-          hesitate to get in touch or click the CV button to get a copy of my CV!
+          hesitate to get in touch or click the CV button to get a copy of my CV if you want to view my skills and educational background!
         </p>
-      </div>      
+        <a id="cv" href='/assets/files/cv.pdf'>CV</a>
+        <h2><span className='section-sub-title'>Skills and Technologies.</span></h2>      
+        <div id='skills'>
+        </div>
+        <div id='links'>
+          
+        </div>
+      </div>
     </div>
   )
 }

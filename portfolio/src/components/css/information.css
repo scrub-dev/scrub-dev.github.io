@@ -15,7 +15,33 @@
   color: white;
   border-bottom: 0.1em solid var(--accent_colour);
 }
+.section-sub-title {
+  font-size: 1.5rem;
+  color: white;
+  border-bottom: 0.1em solid var(--accent_colour);
+}
 
 #about-me > p{
   text-align: left;
 }
+
+#cv {
+  background-color: var(--accent_colour);
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  
+  text-decoration: none;
+  color: var(--text_colour);
+  box-shadow: 0.5em 0.5em var(--nav_dark);
+
+  position: absolute;
+  right: 90%;
+  }
+  
+  #cv:hover {
+    background-color: var(--accent_colour_alt);
+    transition: 0.2s;
+    box-shadow: none;
+  }
