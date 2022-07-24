@@ -10,8 +10,8 @@ interface personal_information {
 
 const personal = () => {
   let information : personal_information = {
-    name_short: "Scott",
-    name_long: "Scott Donaldson",
+    name_short: "Scrub",
+    name_long: "Scrub",
     email_address: "scott-donaldson@outlook.com",
     github: "https://github.com/scrub-dev/",
     linkedin : "https://www.linkedin.com/in/scott-donaldson-56b810153/",
