@@ -31,7 +31,8 @@ let project_informationArray : Array<project_information> = [
   {
     name: "KF6013 Assessment",
     description: "This module tasks students with ustilising and combining multiple external APIs to create a functional website.",
-    github_link: "https://github.com/scrub-dev/kf6013-assessment"
+    github_link: "https://github.com/scrub-dev/kf6013-assessment",
+    project_link: "http://kf6013.eastus.cloudapp.azure.com"
   },
   {
     name: "IoTWasteManagement",
