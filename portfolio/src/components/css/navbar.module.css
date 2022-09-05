@@ -7,7 +7,7 @@ nav {
   z-index: 100;
 }
 
-nav #name {
+.name {
   position: relative;
   padding-left: 0.5em;
   padding-top: 0.5em;
@@ -18,7 +18,7 @@ nav #name {
   text-underline-offset: 0.1em;
   text-decoration-color: var(--accent_colour);
 }
-nav #name:hover {
+.name:hover {
   text-decoration-color: var(--accent_colour_alt);
   transition: 0.3s;
 }

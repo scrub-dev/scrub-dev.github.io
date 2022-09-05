@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.row_container{
+    padding-top: 2rem;
+    width: 90%;
+    height: 90%;
+    align-self: center;
+}

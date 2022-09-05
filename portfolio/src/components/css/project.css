@@ -53,8 +53,6 @@ margin: 0.5rem;
 text-decoration: none;
 color: var(--text_colour);
 box-shadow: 2px 2px var(--nav_dark);
-
-
 }
 
 .project-link:hover {

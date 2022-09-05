@@ -1,11 +1,9 @@
 import './css/section.css'
-const Section = (props : any) => {
-  let content : any = props.content
-  return (
-    <section id={props.id} style={{backgroundColor: props.bg}}>
-      {content}
-    </section>
-  )
+
+type SectionProps = {
+  bg: string;
+  content: React.ReactNode;
+  id: string;
 }
 
-export default Section
+export const Section: React.FunctionComponent<SectionProps> = ({bg, content, id}) => <section id={id} style={{backgroundColor: bg}}> {content} </section>

@@ -1,12 +1,7 @@
 import personal from "../info/personal"
-import './css/footer.css'
+import footer from './css/footer.module.css'
 
-const Footer = () => {
-  return (
-    <footer>
-      <span>&#169; {personal().name_long} {new Date().getFullYear()}</span>
+export const Footer = () => 
+    <footer className={footer.footer}>
+      <span className={footer.footer_content}>&#169; {personal().name_long} {new Date().getFullYear()}</span>
     </footer>
-  )
-}
-
-export default Footer

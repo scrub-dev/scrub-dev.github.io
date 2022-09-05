@@ -1,8 +1,8 @@
 import './components/css/App.css';
-import Footer from './components/footer';
+import {Footer} from './components/footer';
 import './components/navbar'
-import Navbar from './components/navbar';
-import Section from './components/section';
+import {Navbar} from './components/navbar';
+import {Section} from './components/section';
 import InformationSection from './components/sections/information';
 import ProjectsSection from './components/sections/projects';
 import TitleSection from './components/sections/title';
