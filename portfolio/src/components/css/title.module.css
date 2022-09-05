@@ -1,4 +1,4 @@
-.typewriter-text{
+.typewriter_text{
   color: white;
   font-size: 3rem;
 
@@ -12,12 +12,12 @@
     typing 2s steps(35, end),
     blink-caret .75s step-end infinite;
 }
-.name-anim{
+.name_anim{
   animation: white-to-accent 1s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
 }
-.title-anim{
+.title_anim{
   padding-left: 0.2em;
   border-bottom: 0.1em solid transparent;
   padding-bottom: 0.1em;
@@ -47,7 +47,7 @@
   to{border-color: var(--accent_colour)}
 }
 
-#container {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;

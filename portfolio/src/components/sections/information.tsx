@@ -1,8 +1,7 @@
 import '../css/information.css'
 import personal from "../../info/personal"
 
-const InformationSection = () => {
-  return (
+export const InformationSection = () => 
     <div className="container">
       <h2><span id='section-title'>About Me.</span></h2>
       <div id='about-me'>
@@ -39,7 +38,3 @@ const InformationSection = () => {
         </div>
       </div>
     </div>
-  )
-}
-
-export default InformationSection

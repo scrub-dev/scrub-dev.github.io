@@ -1,14 +1,11 @@
-import './components/css/App.css';
 import {Footer} from './components/footer';
-import './components/navbar'
 import {Navbar} from './components/navbar';
-import {Section} from './components/section';
-import InformationSection from './components/sections/information';
+import {Section} from './components/style/section';
+import {InformationSection} from './components/sections/information';
 import {ProjectsSection} from './components/sections/projects';
-import TitleSection from './components/sections/title';
+import {TitleSection} from './components/sections/title';
 
-function App() {
-  return (
+export const App = () => 
     <div className="App">
       <header>
         <Navbar/>
@@ -20,7 +17,6 @@ function App() {
       </main>
       <Footer/>
     </div>
-  );
-}
 
-export default App;
+
+// export default App;

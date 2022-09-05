@@ -1,4 +1,4 @@
-import style from './css/section.module.css'
+import style from '../css/section.module.css'
 
 type SectionProps = {
   bg: string;
