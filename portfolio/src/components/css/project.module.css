@@ -35,14 +35,14 @@
   padding-right: 0.5em;
 }
 
-.project-links {
+.project_links {
   position: absolute;
   bottom: 0px;
   width: 100%;
   text-align:center;
 }
 
-.project-link {
+.project_link {
 background-color: var(--accent_colour);
 margin:10px auto;
 display:inline-block;
@@ -55,7 +55,7 @@ color: var(--text_colour);
 box-shadow: 2px 2px var(--nav_dark);
 }
 
-.project-link:hover {
+.project_link:hover {
   background-color: var(--accent_colour_alt);
   transition: 0.2s;
   box-shadow: none;

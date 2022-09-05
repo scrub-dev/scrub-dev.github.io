@@ -1,13 +1,11 @@
 .row {
   display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .row_container{
-    padding-top: 2rem;
-    width: 90%;
-    height: 90%;
-    align-self: center;
+  padding-top: 2rem;
+  width: 90%;
+  height: 90%;
+  align-self: center;
 }

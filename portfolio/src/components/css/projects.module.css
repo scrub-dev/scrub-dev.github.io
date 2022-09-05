@@ -1,9 +1,9 @@
-#projects-title {
+.projects_title_container {
   padding-bottom: 2em;
   padding-top: 1em;
 }
 
-#projects-title > span {
+.projects_title {
   font-size: 2rem;
   color: white;
   border-bottom: 0.1em solid var(--accent_colour);
