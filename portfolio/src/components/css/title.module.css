@@ -2,15 +2,21 @@
   color: white;
   font-size: 3rem;
 
-  display: inline-flex;
+  display: flex;
   overflow: hidden;
-  margin: 0 auto;
   white-space: nowrap;
 
   border-right: .15em solid var(--accent_colour);
   animation: 
     typing 2s steps(35, end),
     blink-caret .75s step-end infinite;
+}
+
+.hello_world {
+  color: white;
+  font-size: 3rem;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 .name_anim{
   animation: white-to-accent 1s;
