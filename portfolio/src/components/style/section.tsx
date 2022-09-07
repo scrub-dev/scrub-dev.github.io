@@ -6,4 +6,4 @@ type SectionProps = {
   id: string;
 }
 
-export const Section: React.FunctionComponent<SectionProps> = ({bg, content, id}) => <section id={id} style={{backgroundColor: bg}} className={style.section}> {content} </section>
+export const Section: React.FunctionComponent<SectionProps> = ({bg, content, id}) => <section id={id} style={{background: bg}} className={style.section}> {content} </section>
