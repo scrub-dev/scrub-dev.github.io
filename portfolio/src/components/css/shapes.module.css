@@ -59,6 +59,6 @@
 }
 
 @keyframes rotate_and_move{
-  from { transform: rotate(30deg)}
-  to { transform: rotate(30)}
+  from { transform: rotate(0)}
+  to { transform: rotate(360)}
 }
