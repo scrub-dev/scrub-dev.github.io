@@ -58,3 +58,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.shadow {
+  text-shadow: -0.1em 0.1em #3d3d3d;
+}
