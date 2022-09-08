@@ -53,6 +53,10 @@
   to{border-color: var(--accent_colour)}
 }
 
+.passthrough {
+  pointer-events : none;
+}
+
 .container {
   display: flex;
   align-items: center;

@@ -1,6 +1,37 @@
 :root {
-  --scale : 1.3;
+  --scale : 1.4;
   --animation_time_multiplyer : 0.5s;
+}
+
+.gradient_1 {
+  background: linear-gradient(90deg, rgba(255,0,0,1) -25%, rgba(255,177,0,1) 100%);
+}
+.gradient_2 {
+  background: linear-gradient(90deg, rgba(255,244,0,1) 20%, rgba(9,255,0,1) 100%);
+}
+.gradient_3 {
+  background: linear-gradient(90deg, rgba(0,211,255,1) 20%, rgba(16,0,255,1) 100%);
+}
+.gradient_4 {
+  background: linear-gradient(90deg, rgba(102,0,255,1) 20%, rgba(255,0,219,1) 100%);
+}
+.gradient_5 {
+  background: linear-gradient(270deg, rgba(255,0,164,1) 20%, rgba(255,0,0,1) 100%);
+}
+
+.opacity_50 {
+  opacity: 50%;
+}
+
+.opacity_fade_in {
+  animation-delay: 2s;
+  animation-name: fade_in;
+  animation-duration: 3s;
+}
+.opacity_fade_out {
+  animation-name: fade_in;
+  animation-duration: 3s;
+  animation-direction: reverse;
 }
 
 .square_1 {
@@ -8,8 +39,7 @@
   border-radius: 1em;
   height: 10em;
   width: 10em;
-  background: linear-gradient(90deg, rgba(255,0,0,1) -25%, rgba(255,177,0,1) 100%);
-  transform: translate(-20%, -10%) rotate(30deg) scale(var(--scale));
+  transform: translate(-20%, -50%) rotate(30deg) scale(var(--scale));
   z-index: -100;
   animation: rotate_and_move calc(var(--animation_time_multiplyer) * 3);
 }
@@ -19,10 +49,9 @@
   border-radius: 1em;
   height: 10em;
   width: 10em;
-  background: linear-gradient(90deg, rgba(255,244,0,1) 20%, rgba(9,255,0,1) 100%);
-  transform: translate(90%, -10%) rotate(260deg) scale(var(--scale));
+  transform: translate(90%, -50%) rotate(260deg) scale(var(--scale));
   z-index: -99;
-  animation: rotate_and_move calc(var(--animation_time_multiplyer) * 2);
+  animation: rotate_and_move calc(var(--animation_time_multiplyer) * 3);
 }
 
 .square_3 {
@@ -30,8 +59,7 @@
   border-radius: 1em;
   height: 10em;
   width: 10em;
-  background: linear-gradient(90deg, rgba(0,211,255,1) 20%, rgba(16,0,255,1) 100%);
-  transform: translate(190%, 0%) rotate(30deg) scale(var(--scale));
+  transform: translate(190%, -50%) rotate(30deg) scale(var(--scale));
   z-index: -98;
   animation: rotate_and_move calc(var(--animation_time_multiplyer) * 3);
 }
@@ -41,10 +69,9 @@
   border-radius: 1em;
   height: 10em;
   width: 10em;
-  background: linear-gradient(90deg, rgba(102,0,255,1) 20%, rgba(255,0,219,1) 100%);
-  transform: translate(290%, -10%) rotate(245deg) scale(var(--scale));
+  transform: translate(290%, -50%) rotate(245deg) scale(var(--scale));
   z-index: -97;
-  animation: rotate_and_move calc(var(--animation_time_multiplyer) * 4);
+  animation: rotate_and_move calc(var(--animation_time_multiplyer) * 3);
 }
 
 .square_5 {
@@ -52,13 +79,53 @@
   border-radius: 1em;
   height: 10em;
   width: 10em;
-  background: linear-gradient(270deg, rgba(255,0,164,1) 20%, rgba(255,0,0,1) 100%);
-  transform: translate(390%, -10%) rotate(190deg) scale(var(--scale));
+  
+  transform: translate(390%, -50%) rotate(190deg) scale(var(--scale));
   z-index: -96;
-  animation: rotate_and_move calc(var(--animation_time_multiplyer) * 5);
+  animation: rotate_and_move calc(var(--animation_time_multiplyer) * 3);
+}
+
+.floating {
+  animation-name: floating; 
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.transparency_on_hover:hover {
+  opacity: 50%;
+}
+
+.float_on_hover {
+  opacity: 50%;
+}
+.float_on_hover:hover {
+  animation: floating_small 2s ease-in-out infinite, opacity_fill 1s ease-in forwards 1;
 }
 
 @keyframes rotate_and_move{
-  from { transform: rotate(0)}
-  to { transform: rotate(360)}
+  0% { transform: rotate(0); }
+  50%  { transform: rotate(180); }
+  100%   { transform: rotate(360); }   
+}
+
+@keyframes opacity_fill {
+  0% { opacity: 50% ;}
+  100% { opacity: 100% ;}
+}
+
+@keyframes fade_in {
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+
+@keyframes floating {
+  0% { top: initial}
+  50%  { top: initial - -3em}
+  100%   { top: initial }   
+}
+@keyframes floating_small {
+  0% { top: 0}
+  50%  { top: -0.5em}
+  100%   { top: 0 }   
 }
