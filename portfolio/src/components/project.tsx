@@ -18,4 +18,3 @@ export const Project: React.FC<project_information> = ({name, description, githu
     </div>
   )
 }
-
