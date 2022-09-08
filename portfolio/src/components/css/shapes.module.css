@@ -9,7 +9,7 @@
   height: 10em;
   width: 10em;
   background: linear-gradient(90deg, rgba(255,0,0,1) -25%, rgba(255,177,0,1) 100%);
-  transform: translate(-20%, 0%) rotate(30deg) scale(var(--scale));
+  transform: translate(-20%, -10%) rotate(30deg) scale(var(--scale));
   z-index: -100;
   animation: rotate_and_move calc(var(--animation_time_multiplyer) * 3);
 }
@@ -20,7 +20,7 @@
   height: 10em;
   width: 10em;
   background: linear-gradient(90deg, rgba(255,244,0,1) 20%, rgba(9,255,0,1) 100%);
-  transform: translate(90%, 0%) rotate(260deg) scale(var(--scale));
+  transform: translate(90%, -10%) rotate(260deg) scale(var(--scale));
   z-index: -99;
   animation: rotate_and_move calc(var(--animation_time_multiplyer) * 2);
 }
@@ -42,7 +42,7 @@
   height: 10em;
   width: 10em;
   background: linear-gradient(90deg, rgba(102,0,255,1) 20%, rgba(255,0,219,1) 100%);
-  transform: translate(290%, 0%) rotate(245deg) scale(var(--scale));
+  transform: translate(290%, -10%) rotate(245deg) scale(var(--scale));
   z-index: -97;
   animation: rotate_and_move calc(var(--animation_time_multiplyer) * 4);
 }
@@ -53,7 +53,7 @@
   height: 10em;
   width: 10em;
   background: linear-gradient(270deg, rgba(255,0,164,1) 20%, rgba(255,0,0,1) 100%);
-  transform: translate(390%, 0%) rotate(190deg) scale(var(--scale));
+  transform: translate(390%, -10%) rotate(190deg) scale(var(--scale));
   z-index: -96;
   animation: rotate_and_move calc(var(--animation_time_multiplyer) * 5);
 }
