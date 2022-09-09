@@ -15,8 +15,6 @@
 .hello_world {
   color: white;
   font-size: 3rem;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
 }
 .name_anim{
   /* animation: white-to-accent 1s; */
@@ -28,9 +26,6 @@
   border-bottom: 0.1em solid transparent;
   padding-bottom: 0.1em;
   margin-right: 0.2em;
-  /* animation: accent-border-reveal 2s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards; */
 }
 @keyframes typing {
   from { width: 0 }
