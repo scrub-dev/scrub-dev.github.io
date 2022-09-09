@@ -5,7 +5,7 @@
  */
 const rng = (range: [number, number] | [number]) => {
 
-  let rng = Math.random()
+  let rng: number = Math.random()
 
   if(range.length !== 1){
     let diff = range[1] - range[0]

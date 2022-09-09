@@ -17,9 +17,6 @@
     .shrink_text_on_mobile > * {
         font-size: 140% !important;
     }
-    .grow_section_to_content {
-        height: fit-content !important;
-    }
   }
 
 
