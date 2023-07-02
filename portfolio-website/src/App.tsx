@@ -2,8 +2,8 @@ import './App.css'
 import setTitle from './utils/setTitle'
 import titles from './data/titles.json'
 import me from './data/person.json'
-import Nav from './components/nav'
-import Footer from './components/footer'
+import Nav from './components/nav/nav'
+import Footer from './components/footer/footer'
 
 
 function App() {
