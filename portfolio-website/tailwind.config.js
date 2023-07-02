@@ -5,7 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      display: ['IBM Plex Mono', 'Menlo', 'monospace'],
+      body: ['IBM Plex Mono', 'Menlo', 'monospace'],
+    }
   },
   plugins: [],
 }

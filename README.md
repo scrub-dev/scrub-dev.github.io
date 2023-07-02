@@ -4,7 +4,13 @@
 
 * [x] Create base react app
 * [x] Add Tailwin to it
-* [ ] Get Tailwind hello world going
+* [x] Get Tailwind hello world going
+* [ ] favicon
+* [ ] Finalise Theme
+* [ ] Upload information
+* [ ] Upload CV
+* [ ] Produce Components for projects
+* [ ] Produce Components for information
 
 ## Technology Used
 
