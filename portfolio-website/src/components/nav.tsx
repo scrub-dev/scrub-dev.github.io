@@ -15,6 +15,5 @@ export default () => {return (
         <button className='px-1'>./projects</button>
         <button className='px-1'>./cv.pdf</button>
         </div>
-        {hamburger("white")}
     </div>
 )}
