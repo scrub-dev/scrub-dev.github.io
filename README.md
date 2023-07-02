@@ -10,6 +10,7 @@
 * [ ] Upload information
 * [ ] Upload CV
 * [ ] Produce Components for projects
+  * [ ] Codewars
 * [ ] Produce Components for information
 
 ## Technology Used
