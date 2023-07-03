@@ -11,7 +11,7 @@ const navEntries: TNavEntry[] = [
 
 return (
         <>
-        cd ./{navEntries.map((e,i) => <NavButton name={e.name} link={e.link} location={e.location} key={e.name + ""+i}/>)}
+        {navEntries.map((e,i) => <NavButton name={e.name} link={e.link} location={e.location} key={e.name + ""+i}/>)}
         </>
     )
 }

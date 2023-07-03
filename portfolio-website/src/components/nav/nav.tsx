@@ -6,8 +6,13 @@ export default () => {return (
             <p className='text-white'>
                 <span className=' underline underline-offset-4 hover:text-purple-400'>{me.name_short.toLowerCase()}@portfolio: /www/website</span>
                 <span className='text-green-500 px-1'>$&gt;</span>
-                <NavButtons/>
-                <span className='px-1 animate-blinking'>_</span>
+                <div className='hidden sm:inline-block'>
+                    <NavButtons/>
+                </div>
+                <div className='sm:hidden flex items-center'>
+                    <NavButtons/>
+                </div>
+                <span className='hidden sm:inline-block px-1 animate-blinking'>_</span>
             </p>
         </div>
     </div>
