@@ -1,0 +1,18 @@
+{
+    "projects" : [
+        {
+        "projectName": "Portfolio Website",
+        "projectDescription":"This website you are currently viewing, used as a first-port-of-call for people wanting to get to know me",
+        "technologies": ["React", "Tailwind", "Typescript", "Vite"],
+        "github_link": "https://github.com/scrub-dev/scrub-dev.github.io",
+        "production_link": "https://scrub-dev.com"
+        },
+        {
+        "projectName": "Portfolio Website",
+        "projectDescription":"This website you are currently viewing, used as a first-port-of-call for people wanting to get to know me",
+        "technologies": ["React", "Tailwind", "Typescript", "Vite"],
+        "github_link": "https://github.com/scrub-dev/scrub-dev.github.io",
+        "production_link": "https://scrub-dev.com"
+        }
+    ]
+}
