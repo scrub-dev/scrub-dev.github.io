@@ -12,6 +12,10 @@
 * [ ] Produce Components for projects
   * [ ] Codewars
 * [ ] Produce Components for information
+* [ ] Get external links inc. SVGs
+  * [ ] github
+  * [ ] email
+  * [ ] linkedin
 
 ## Technology Used
 
