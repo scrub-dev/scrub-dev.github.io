@@ -1,12 +1,12 @@
 export interface TNavEntry {
-    name: String,
-    location?: String,
-    link?: String
+    name: string,
+    location?: string,
+    link?: string
 }
 export interface TProject {
-    name: String,
-    desc: String,
-    tech: String[],
-    gh_link?: String,
-    prod_link?:String
+    name: string,
+    desc: string,
+    tech: string[],
+    gh_link?: string,
+    prod_link?:string
 }
