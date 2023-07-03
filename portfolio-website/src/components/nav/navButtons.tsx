@@ -3,15 +3,15 @@ import { NavButton } from "./navButton"
 
 export default () => {
 const navEntries: TNavEntry[] = [
-    {name:"home"},
-    {name:"about-me"},
-    {name:"projects"},
-    {name: "cv"}
+    {name:"home", location:"#home"},
+    {name:"about-me", location: "#info"},
+    {name:"projects", location: "#projects"},
+    {name: "cv", link: "/assets/cv.pdf"}
 ]
 
 return (
         <>
-        cd ./{navEntries.map(e => <NavButton name={e.name}/>)}
+        cd ./{navEntries.map((e,i) => <NavButton name={e.name} link={e.link} location={e.location} key={e.name + ""+i}/>)}
         </>
     )
 }
