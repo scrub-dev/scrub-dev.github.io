@@ -6,16 +6,16 @@
 * [x] Add Tailwin to it
 * [x] Get Tailwind hello world going
 * [ ] favicon
-* [ ] Finalise Theme
-* [ ] Upload information
-* [ ] Upload CV
-* [ ] Produce Components for projects
-  * [ ] Codewars
-* [ ] Produce Components for information
-* [ ] Get external links inc. SVGs
-  * [ ] github
-  * [ ] email
-  * [ ] linkedin
+* [x] Finalise Theme
+* [x] Upload information
+* [x] Upload CV
+* [x] Produce Components for projects
+  * [x] Codewars
+* [x] Produce Components for information
+* [x] Get external links inc. SVGs
+  * [x] github
+  * [x] email
+  * [x] linkedin
 
 ## Technology Used
 
