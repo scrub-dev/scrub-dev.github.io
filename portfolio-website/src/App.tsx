@@ -1,11 +1,11 @@
 import './App.css'
 import setTitle from './utils/setTitle'
 import titles from './data/titles.json'
-import me from './data/person.json'
 import Nav from './components/nav/nav'
 import Footer from './components/footer/footer'
-import getAge from './utils/getAge'
-
+import { HomePanel } from './components/panels/homePanel'
+import { InfoPanel } from './components/panels/informationPanel'
+import { ProjectPanel } from './components/panels/projectPanel'
 
 function App() {
 
@@ -13,6 +13,9 @@ function App() {
     <>
       {setTitle(titles.app_title)}
       <Nav/>
+      <HomePanel/>
+      <InfoPanel/>
+      <ProjectPanel/>
       <Footer/>
     </>
   )

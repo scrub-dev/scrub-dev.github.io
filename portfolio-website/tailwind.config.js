@@ -8,28 +8,34 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    fontFamily: {
+    fontFamily:{
       display: ['IBM Plex Mono', 'Menlo', 'monospace'],
-      body: ['IBM Plex Mono', 'Menlo', 'monospace'],
-    },
-    colors: {
-      transparent: 'transparent',
-      black: colors.black,
-      white: colors.white,
-      purple: colors.purple,
-      green: colors.green
-    },
-    container: {
-      center: true,
-    },
-    keyframes: {
-      blink: {
-        '0%, 100%': {color: 'transparent'},
-        '50%': {color: '#FFFFFF'}
-      }
-    },
-    animation: {
-      blinking: 'blink 1s infinite'
+      body: ['IBM Plex Mono', 'Menlo', 'monospace']},
+    extend: {
+        colors: {
+          transparent: 'transparent',
+          black: colors.black,
+          white: colors.white,
+          purple: colors.purple,
+          green: colors.green
+        },
+        container: {
+          center: true,
+        },
+        keyframes: {
+          blink: {
+            '0%, 100%': {color: 'transparent'},
+            '50%': {color: '#FFFFFF'}
+          },
+          unblur: {
+            '0%': { filter: "blur(50px)" },
+            '100%': { filter: "blur(0px)" }
+          }
+        },
+        animation: {
+          blinking: 'blink 1.5s infinite',
+          unblur: 'unblur 3s',
+        }
     }
   },
   plugins: [],
