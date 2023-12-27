@@ -1,19 +1,16 @@
 # Portfolio Website
 
+
 ## Todo
 
-* [ ] favicon
-* [ ] meta data
-* [ ] mobile friendly
-  * [ ] nav bar
-  * [ ] content panel sizes
-  * [ ] overlaps
-* [ ] nav bar cursor
+* [ ] Create Basic Framework
+* [ ] Do Things
+* [ ] Merge With Main
+* [ ] Publish
 
 
-## Technology Used
+## Unironic Todo
 
-* Vite
-* Tailwind
-* React
-* Typescript
+* [ ] Create Main Page
+* [ ] Create Project Archive Page
+* [ ] Create JSON Files that contain the data

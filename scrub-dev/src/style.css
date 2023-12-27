@@ -1,0 +1,26 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@config "../tailwind.config.cjs";
+
+
+@layer base {
+    html {
+      @apply scroll-smooth;
+    }
+  }
+
+
+body {
+    background: theme(colors.main);
+}
+
+.svg-hover {
+    fill: theme(colors.white);
+}
+.svg-hover:hover {
+    fill: theme(colors.secondary-2);
+    transition: fill;
+}
