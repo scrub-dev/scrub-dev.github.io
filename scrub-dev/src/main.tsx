@@ -7,7 +7,7 @@ import ProjectArchive from './pages/project-archive.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
     <Routes>
       <Route index element={<App />}/>
       <Route path="/" element={<App />}/>
