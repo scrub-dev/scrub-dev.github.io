@@ -1,5 +1,6 @@
 {
   "name": "scrub-dev",
+  "homepage": "https://scrub-dev.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d dist --cname scrub-dev.com"
   },
   "dependencies": {
     "autoprefixer": "^10.4.16",
@@ -27,6 +30,7 @@
     "eslint": "^8.55.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "gh-pages": "^6.1.1",
     "react-router-dom": "^6.21.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
