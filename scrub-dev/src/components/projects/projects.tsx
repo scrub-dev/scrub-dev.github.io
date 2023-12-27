@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { get_projects } from "../../util/projects"
-import { NavButton } from "../navigation/nav-button"
+// import { NavButton } from "../navigation/nav-button"
 import ProjectCard from "./project-card"
 
 export default () => {
