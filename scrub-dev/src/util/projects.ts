@@ -7,6 +7,7 @@ export const get_projects = (opts: projects_opts) => {
         case "ALL": return projects
         case "FEATURED": return projects.filter(proj => proj.featured)
         case "RECENT": return projects.filter(proj => +proj.year > (get_current_year() - 2))
+        default: return projects
     }
 
 }

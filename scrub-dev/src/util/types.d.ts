@@ -5,5 +5,7 @@ type project = {
     desc: string,
     year: string,
     tags: string[],
+    project_link?: string,
+    live_link?: string
     featured: boolean
 }

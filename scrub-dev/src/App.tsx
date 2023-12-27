@@ -16,7 +16,6 @@ function App() {
         </div>
       </div>
       <div id='col2' className='lg:col-span-6'>
-        {/* {Array.from(Array(100).keys()).map(e => <p className='text-white' key={e}>HI</p>)} */}
         <AboutMe/>
         <Projects/>
       </div>
