@@ -11,11 +11,11 @@ export default () => {
             <Link to="/project-archive">
                 <div className="group flex pt-2 w-max transition-all uppercase">
                 <span className=" text-white mr-2 group-hover:text-secondary-1 group-hover:font-extrabold">&gt;</span>
-                <a className=" text-white tracking-widest hover:mx-2 hover:text-secondary-2 transition-all">Project Archive</a>
+                <p className=" text-white tracking-widest hover:mx-2 hover:text-secondary-2 transition-all">Project Archive</p>
                 </div>
             </Link>
             <div className="p-4">
-                {get_projects({filter: "FEATURED"}).map(proj => <ProjectCard project={proj}/>)}
+                {get_projects({filter: "FEATURED"}).map(proj => <ProjectCard project={proj} key={proj.name}/>)}
             </div>
         </div>
     )

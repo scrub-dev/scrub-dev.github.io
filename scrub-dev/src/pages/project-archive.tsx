@@ -34,7 +34,7 @@ export default () => {
                     </thead>
                     <tbody>
                         {get_projects({filter: "ALL"}).sort((a,b) => +b.year - +a.year).map(project =>
-                            <tr className="text-white border-b-secondary-1 border-opacity-70 border-b-2 p-10">
+                            <tr className="text-white border-b-secondary-1 border-opacity-70 border-b-2 p-10" key={project.name+project.year}>
                                 <td className="p-5">{project.year}</td>
                                 <td className="p-5">{project.name}</td>
                                 <td>{project.desc}</td>

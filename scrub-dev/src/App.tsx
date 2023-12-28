@@ -7,21 +7,21 @@ import './style.css'
 
 function App() {
   return (
-    <div className='grid lg:grid-cols-1 xl:grid-cols-10'>
-      <div id='col1' className='lg:col-span-4 '>
-        <div className='sticky mt-[30%] mb-20 lg:pl-20 lg:mt-0 lg:mb-0 lg:top-[15%]'>
-          <Intro/>
-          <FindMe/>
-          <Nav/>
+    <div>
+      <div className='grid lg:grid-cols-1 xl:grid-cols-10'>
+        <div id='col1' className='lg:col-span-4 bg-gradient-to-r from-main-dark to-main'>
+          <div className='sticky mt-[30%] mb-20 lg:pl-20 lg:mt-0 lg:mb-0 lg:top-[15%] '>
+            <Intro/>
+            <FindMe/>
+            <Nav/>
+          </div>
+        </div>
+        <div id='col2' className='lg:col-span-6 bg-gradient-to-r from-main to-main-dark'>
+          <AboutMe/>
+          <Projects/>
         </div>
       </div>
-      <div id='col2' className='lg:col-span-6'>
-        <AboutMe/>
-        <Projects/>
-      </div>
     </div>
-
   )
 }
-
 export default App
