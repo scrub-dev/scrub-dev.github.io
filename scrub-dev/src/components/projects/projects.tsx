@@ -5,9 +5,8 @@ import ProjectCard from "./project-card"
 
 export default () => {
     return (
-        <div className="pt-[18%] h-screen" id="projects">
+        <div className="min-h-max pt-[18%] lg:h-screen px-4" id="projects">
             <p className="text-4xl text-secondary-1 border-b-secondary-2 border-b-2 pb-2 uppercase font-bold">Projects.</p>
-            {/* <NavButton name="View project archive" location="/project-archive"/> */}
             <Link to="/project-archive">
                 <div className="group flex pt-2 w-max transition-all uppercase">
                 <span className=" text-white mr-2 group-hover:text-secondary-1 group-hover:font-extrabold">&gt;</span>

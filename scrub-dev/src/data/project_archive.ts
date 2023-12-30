@@ -26,7 +26,7 @@ export const projects: project[] =
         "featured": false
     },
     {
-        "name" : "BlacklistedWordsBot",
+        "name" : "Blacklisted Words Bot",
         "desc" : "A Discord bot using AI to live moderate servers, including verbose individual moderation features.",
         "year" : "2020",
         "tags" : ["Discord", "AI", "Moderation", "JavaScript"],
@@ -60,5 +60,14 @@ export const projects: project[] =
         "project_link" : "https://github.com/scrub-dev/kf6012-assessment",
         "live_link" : "http://unn-w19019810.newnumyspace.co.uk/kf6012/part2",
         "featured": false
+    },
+    {
+        "name" : "Scrub-Dev Website",
+        "desc" : "This portfolio website you are currently viewing. Currently in its third iteration.",
+        "year" : "2023",
+        "tags" : ["Frontend", "React", "Typescript", "Tailwind", "Vite", "Website"],
+        "project_link" : "https://github.com/scrub-dev/scrub-dev.github.io",
+        "live_link" : "http://scrub-dev.com",
+        "featured": true
     },
 ]

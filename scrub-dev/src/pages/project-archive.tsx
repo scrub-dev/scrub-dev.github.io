@@ -1,4 +1,5 @@
 import { NavButton } from "../components/navigation/nav-button"
+import ProjectCard from "../components/projects/project-card"
 import { get_projects } from "../util/projects"
 export default () => {
 
@@ -18,10 +19,15 @@ export default () => {
 
 
     return (
-        <div className="container mx-auto mt-10">
-            <p className="text-4xl text-secondary-1 border-b-secondary-2 border-b-2 pb-2 uppercase font-bold">Project Archive</p>
-            <NavButton name={"Go Back"} location="/"/>
-            <div className="w-full mt-20">
+        <div className="lg:container mt-10 lg:m-auto w-[100vw]">
+            <p className="text-4xl text-secondary-1 border-b-secondary-2 border-b-2 pb-2 uppercase font-bold pl-2">Project Archive</p>
+            <div className="pl-2">
+                <NavButton name={"Go Back"} location="/"/>
+            </div>
+            <div className="lg:hidden w-full flex flex-col gap-2 justify-center items-center px-2">
+                {get_projects({filter: "ALL"}).map(proj => <ProjectCard project={proj} key={proj.name}/>)}
+            </div>
+            <div className="hidden lg:flex w-full mt-20">
                 <table className="w-full table-auto">
                     <thead className="text-white text-left border-b-secondary-2 border-b-2">
                         <tr>
@@ -49,6 +55,5 @@ export default () => {
                 </table>
             </div>
         </div>
-
     )
 }
