@@ -13,7 +13,7 @@ export const projects: project[] =
         "name" : "Project Zeus",
         "desc" : "Undergraduate Dissertation Project using AI Toxicity detection in real-time on social platforms.",
         "year" : "2022",
-        "tags" : ["Discord", "AI", "Moderation", "Javascript"],
+        "tags" : ["Discord", "AI", "Moderation", "Javascript", "Docker"],
         "project_link" : "https://github.com/scrub-dev/project-zeus",
         "featured": true
     },
@@ -29,7 +29,7 @@ export const projects: project[] =
         "name" : "Blacklisted Words Bot",
         "desc" : "A Discord bot using AI to live moderate servers, including verbose individual moderation features.",
         "year" : "2020",
-        "tags" : ["Discord", "AI", "Moderation", "JavaScript"],
+        "tags" : ["Discord", "AI", "Moderation", "JavaScript", "Docker"],
         "project_link" : "",
         "live_link" : "",
         "featured": false
@@ -68,6 +68,15 @@ export const projects: project[] =
         "tags" : ["Frontend", "React", "Typescript", "Tailwind", "Vite", "Website"],
         "project_link" : "https://github.com/scrub-dev/scrub-dev.github.io",
         "live_link" : "http://scrub-dev.com",
+        "featured": true
+    },
+    {
+        "name" : "NE1 Can Dev",
+        "desc" : "Social Engagement for the Tech Industry in the North east of england.",
+        "year" : "2023",
+        "tags" : ["Discord", "Github Pages"],
+        "project_link" : "https://github.com/NE1-Can-Dev/",
+        "live_link" : "http://ne1can.dev",
         "featured": true
     },
 ]
