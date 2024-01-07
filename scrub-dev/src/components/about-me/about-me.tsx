@@ -3,7 +3,8 @@ import personal_information from '../../data/personal_information.json'
 
 export default () => {
     return (
-        <div className="min-h-max pt-[18%] lg:h-screen px-4" id="about-me">
+    <div className="flex min-h-max pt-4 lg:h-screen px-4" id="about-me">
+        <div className="m-auto">
             <p className="text-4xl text-secondary-1 border-b-secondary-2 border-b-2 pb-2 uppercase font-bold">About Me.</p>
             <div id="me" className="py-2 pr-4">
                 <p className="pt-2 text-white opacity-80">I'm {get_current_age()} and from the great city of {personal_information.loc.city} where I currently reside.</p>
@@ -17,5 +18,6 @@ export default () => {
                 <p className="pt-2 text-white opacity-80">As of December 2023 I am coming up on completing my Postgraduate <span className="opacity-100 font-bold">MSc Advanced Computer Science Degree</span> and looking for further work.</p>
             </div>
         </div>
+    </div>
     )
 }

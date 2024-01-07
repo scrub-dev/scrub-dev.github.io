@@ -5,7 +5,8 @@ import ProjectCard from "./project-card"
 
 export default () => {
     return (
-        <div className="min-h-max pt-[18%] lg:h-screen px-4" id="projects">
+    <div className="flex min-h-max lg:h-screen px-4" id="projects">
+        <div className="m-auto">
             <p className="text-4xl text-secondary-1 border-b-secondary-2 border-b-2 pb-2 uppercase font-bold">Projects.</p>
             <Link to="/project-archive">
                 <div className="group flex pt-2 w-max transition-all uppercase">
@@ -17,5 +18,6 @@ export default () => {
                 {get_projects({filter: "FEATURED"}).map(proj => <ProjectCard project={proj} key={proj.name}/>)}
             </div>
         </div>
+    </div>
     )
 }
