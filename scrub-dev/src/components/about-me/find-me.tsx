@@ -13,7 +13,6 @@ export default () => {
         {"name": "codewars", "url": "https://linkedin.com/in/scrub-dev/", "icon" : <SVG_linkedin fill='white' width={40} className='opacity-80 hover:opacity-100 svg-hover'/>}
     ]
 
-
     return (
         <div className="pl-10 flex gap-5">
             {links.map(link => <a href ={link.url} key={link.name} target="_blank">{link.icon}</a>)}

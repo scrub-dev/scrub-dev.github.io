@@ -12,7 +12,7 @@ function App() {
     <div>
       <div className='grid lg:grid-cols-1 xl:grid-cols-10'>
         <div id='col1' className='h-svh lg:h-full lg:col-span-4 bg-gradient-to-r from-main-dark to-main'>
-          <div className='sticky mt-[30%] mb-20 lg:pl-20 lg:mt-0 lg:mb-0 lg:top-[15%] '>
+          <div className='sticky mt-[30%] mb-20 xl:pl-20 xl:mt-0 xl:mb-0 xl:top-[15%] h-screen'>
             <Intro/>
             <FindMe/>
             <Nav/>
