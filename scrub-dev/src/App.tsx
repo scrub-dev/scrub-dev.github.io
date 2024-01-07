@@ -1,6 +1,7 @@
 import AboutMe from './components/about-me/about-me'
 import FindMe from './components/about-me/find-me'
 import Intro from './components/about-me/intro'
+import Features from './components/features/features'
 import Nav from './components/navigation/nav'
 import Projects from './components/projects/projects'
 
@@ -19,6 +20,7 @@ function App() {
         </div>
         <div id='col2' className='col-span-1 lg:col-span-6 bg-gradient-to-r from-main to-main-dark'>
           <AboutMe/>
+          <Features/>
           <Projects/>
         </div>
       </div>

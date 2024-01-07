@@ -5,7 +5,9 @@ export default () => {
 
     const locations: TNavEntry[] = [
         {name:"about me", location: "#about-me"},
+        {name:"features", location: "#features"},
         {name:"projects", location: "#projects"}
+
     ]
 
     return  <div className="grid grid-cols-1">

@@ -9,3 +9,10 @@ type project = {
     live_link?: string
     featured: boolean
 }
+type feature = {
+    title: string,
+    date: Date
+    desc : string,
+    video: string,
+    embed: string
+}
