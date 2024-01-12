@@ -38,7 +38,7 @@ export const projects: project[] =
         "name" : "DVSC",
         "desc" : "Donaldsons Vehicle Specialist Consultancy Full Stack Business Software Suite.",
         "year" : "2022",
-        "tags" : ["Full Stack", "PHP", "Team", "University Project", "Java", "React", "Typescript"],
+        "tags" : ["Full Stack", "PHP", "Team", "University", "Java", "React", "Typescript"],
         "project_link" : "https://github.com/kv6002-team",
         "live_link" : "https://dvsc.services",
         "featured": true
@@ -78,5 +78,21 @@ export const projects: project[] =
         "project_link" : "https://github.com/NE1-Can-Dev/",
         "live_link" : "http://ne1can.dev",
         "featured": true
+    },
+    {
+        "name" : "CipherSuite",
+        "desc" : "A Cryptography Helper to experiment with advanced software design practices.",
+        "year" : "2022",
+        "tags" : ["C#",".NET", "Software"],
+        "project_link" : "https://github.com/scrub-dev/CipherSuite",
+        "featured": false
+    },
+    {
+        "name" : "Tiff2PDF",
+        "desc" : "Basic C# Tiff to PDF Converter.",
+        "year" : "2022",
+        "tags" : ["C#",".NET", "Software"],
+        "project_link" : "https://github.com/scrub-dev/tiff2pdf",
+        "featured": false
     },
 ]
