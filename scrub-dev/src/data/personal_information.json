@@ -9,5 +9,35 @@
     },
     "loc" : {
         "city" : "Newcastle upon Tyne"
-    }
+    },
+    "edu" : [
+        {
+            "name": "MSc Advanced Computer Science",
+            "date_start": "Sept 22",
+            "date_end"  : "Current",
+            "location"  : "Northumbria University",
+            "grade"     : "Predicted Distinction"
+        },
+        {
+            "name": "BSc Computer Science",
+            "date_start": "Sept 19",
+            "date_end"  : "Sept 22",
+            "location"  : "Northumbria University",
+            "grade"     : "First with Honours"
+        },
+        {
+            "name": "Extended Diploma Games Development",
+            "date_start": "Dec 17",
+            "date_end"  : "Sept 19",
+            "location"  : "Newcastle College",
+            "grade"     : "Distinction* Distinction* Distinction*"
+        }
+    ],
+    "skills": [
+        "Typescript", "Javascript", "Java", "C#", "PHP", "Python", "HTML", "CSS", "SQL",
+        "REST", "OOP", "Functional Programming", "Full Stack Development", "Frontend", "Backend",
+        "Unit Testing", "React", "Node", "Tailwind", "Azure", "C#.NET", "Linux", "CLI", "Version Control",
+        "CI/CD", "OSINT", "Office 365", "Health and Safety", "Problem Solving", "Teamwork", "A mean grilled cheese"
+    ]
+
 }
