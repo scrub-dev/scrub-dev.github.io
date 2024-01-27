@@ -5,7 +5,7 @@ import ProjectCard from "./project-card"
 
 export default () => {
     return (
-    <div className="flex min-h-max lg:h-screen px-4" id="projects">
+    <div className="flex min-h-screen px-4" id="projects">
         <div className="m-auto">
             <p className="text-4xl text-secondary-1 border-b-secondary-2 border-b-2 pb-2 uppercase font-bold">Projects.</p>
             <Link to="/project-archive">
