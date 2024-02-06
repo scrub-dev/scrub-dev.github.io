@@ -6,7 +6,7 @@ export default (props: {edu: {
     grade:string}}) =>
 {
     return (
-        <div className="grid grid-cols-10 gap-2 p-1 m-2 rounded-xl bg-secondary-1 bg-opacity-25 hover:bg-opacity-100 duration-300 xl:mx-[15%]">
+        <div className="grid grid-cols-10 gap-2 p-1 m-2 rounded-xl bg-secondary-1 bg-opacity-25 hover:bg-opacity-100 duration-300 2xl:mr-[30%]">
             <div className="col-span-2 text-right">
                 <p className="flex flex-col sm:inline gap-2">
                     <span className="text-white opacity-80">{props.edu.date_start}</span>

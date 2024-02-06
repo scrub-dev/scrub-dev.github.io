@@ -7,7 +7,7 @@ export default () => {
         {name:"about me", location: "#about-me"},
         {name:"features", location: "#features"},
         {name:"projects", location: "#projects"},
-        {name:"resume", link:"/CV_24.pdf"}
+        {name:"resume", link:"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/scrub-dev/me/main/files/CV_24.pdf"}
 
     ]
 
