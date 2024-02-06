@@ -5,7 +5,7 @@ import Edulist from "./edu/edulist"
 
 export default () => {
     return (
-    <div className="flex min-h-screen pt-4 px-4" id="about-me">
+    <div className="flex min-h-screen" id="about-me">
         <div className="m-auto">
             <p className="text-4xl text-secondary-1 border-b-secondary-2 border-b-2 pb-2 uppercase font-bold">About Me.</p>
             <div id="me" className="py-2 pr-4">
