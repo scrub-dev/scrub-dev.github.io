@@ -6,7 +6,7 @@ import ProjectCard from "./project-card"
 export default () => {
     return (
     <div className="flex min-h-screen" id="projects">
-        <div className="m-auto">
+        <div className="m-auto p-2">
             <p className="text-4xl text-secondary-1 border-b-secondary-2 border-b-2 pb-2 uppercase font-bold">Projects.</p>
             <Link to="/project-archive">
                 <div className="group flex pt-2 w-max transition-all uppercase">
