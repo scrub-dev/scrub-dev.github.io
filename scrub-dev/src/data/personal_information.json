@@ -1,7 +1,8 @@
 {
     "name" : {
         "short": "scott",
-        "long" : "scott donaldson"
+        "long" : "scott donaldson",
+        "online": "scrub"
     },
     "dob" : {
         "millis": "976869000000",
@@ -14,9 +15,9 @@
         {
             "name": "MSc Advanced Computer Science",
             "date_start": "Sept 22",
-            "date_end"  : "Current",
+            "date_end"  : "Feb 24",
             "location"  : "Northumbria University",
-            "grade"     : "Predicted Distinction"
+            "grade"     : "Distinction"
         },
         {
             "name": "BSc Computer Science",
