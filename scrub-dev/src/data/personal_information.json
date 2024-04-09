@@ -1,7 +1,7 @@
 {
     "name" : {
-        "short": "scott",
-        "long" : "scott donaldson",
+        "short": "kaitlyn",
+        "long" : "kaitlyn donaldson",
         "online": "scrub"
     },
     "dob" : {
@@ -15,7 +15,7 @@
         {
             "name": "MSc Advanced Computer Science",
             "date_start": "Sept 22",
-            "date_end"  : "Feb 24",
+            "date_end"  : "Mar 24",
             "location"  : "Northumbria University",
             "grade"     : "Distinction"
         },
