@@ -1,0 +1,17 @@
+@use 'sass:math';
+@use 'sass:map';
+
+$base-value: 4;
+
+$multipliers : (
+    "none"  : 0,
+    "tiny"  : 1,
+    "small" : 2,
+    "medium": 3,
+    "large" : 4,
+    "huge"  : 5
+);
+
+@function spacing($name){
+    @return map-get($map: $multipliers, $key: $name) * $base-value;
+}

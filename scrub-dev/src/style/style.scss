@@ -1,0 +1,23 @@
+@import 'reset';
+@import 'mq';
+@import 'variables/variables';
+@import 'components/components';
+
+html {
+    @extend .bg--black;
+    @extend .text--white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+
+    font-family: 'JetBrains Mono', monospace;
+
+    width: 120ch;
+    @include mq($until: desktop){
+        width: 100%;
+    }
+}
